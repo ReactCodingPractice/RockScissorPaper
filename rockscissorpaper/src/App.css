@@ -1,0 +1,47 @@
+.box {
+    display : flex;
+    width: 700px;
+    height: 700px;
+    border: 10px solid black;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.boxes {
+    display : flex;
+    gap: 15px;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.gamebuttons {
+    display: flex;
+    gap: 7px;
+    justify-content: center;
+
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.result {
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+
+.boxwin {
+    border-color: green;
+    color: green;
+}
+
+.boxlose {
+    border-color: red;
+    color: red;
+}
